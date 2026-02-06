@@ -1,0 +1,18 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          auth0:
+            client-id: hh2MpSNfGvYNvUQFucHva2NrzEqgj8WH
+            client-secret: iZWSTtRkbBSeh7iJD9ysc3fvtBnDe6-GXPce2vLGqlPrGN2ZzEIHF9JnCqAUdUgR
+            scope:
+              - openid
+              - profile
+              - email
+        provider:
+          auth0:
+            issuer-uri: https://dev-qdbtt6wh3a1q8lt1.us.auth0.com
+
+server:
+  port: 8080
